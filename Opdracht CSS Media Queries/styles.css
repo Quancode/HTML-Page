@@ -1,0 +1,195 @@
+body {
+    color: #666;
+    background-image: url(werk.jpg);
+    background-size: cover;
+    font: normal 16px, 'Montserrat', sans-serif;
+    /*onderin kan ook, boven is korter*/
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    font-weight: normal;
+    background-size: cover; margin: 0;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+ 
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.box-1 {
+    background-color:#666;
+    color: #e2dbdb;
+    border: 5px darkgrey solid;
+    padding: 20px; 
+    margin-top: 20px;
+    margin: 20px 0;
+    }
+
+.box-1 h1{
+    font-family:'sans-serif', serif;
+    font-size:cover;
+    font-weight:800;
+    font-style:normal;
+    text-transform: capitalize;
+    letter-spacing: 0.2em ;
+}
+
+.box-1 p{ 
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.box-2 {
+        background-color:lightgrey ;
+        border: solid; 
+        border-color: #666;
+        border-width: 3px;
+        color: #6B6A6A;
+        Border: 5px darkgrey solid;
+        padding: 20px; 
+        margin-top: 20px;
+        margin: 20px 0;
+    }
+
+.box-2 h2{
+    font-family:'sans-serif', serif;
+    font-size:cover;
+    font-weight:500;
+    font-style:normal;
+    color:darkgray;
+    text-transform: capitalize;
+    letter-spacing: 0.1em ;
+}
+
+.box-3 {
+        font-family:'sans-serif', 'serif';
+        font-size:cover;
+        background-color:#666;
+        color: #e2dbdb;
+        Border: 5px darkgrey solid;
+        padding: 10px; 
+        margin-top: 10px;
+        margin: 10px 0;
+    }
+
+.box-3 h2{
+        font-family:'sans-serif', 'serif';
+        font-size:cover;
+        font-weight:500;
+        font-style:normal;
+        color:darkgray;
+        text-transform: capitalize;
+        letter-spacing: 0.2em ;    
+}
+
+.box-3 p { 
+            letter-spacing: 0.2em;
+}
+
+.box-4 {
+    background-color:lightgrey ;
+    border: solid; 
+    border-color: #666;
+    border-width: 3px;
+    color: #6B6A6A;
+    Border: 5px darkgrey solid;
+    padding: 20px; 
+    margin-top: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.box-4 h2{
+    font-family:'sans-serif', serif;
+    font-size:cover;
+    font-weight:500;
+    font-style:normal;
+    color:darkgray;
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+}
+
+
+.titel {
+    color: #ff94df;
+    font-size: 3em;
+    font-weight: bolder;
+    font-size: 250%;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Playfair Display SC', serif;
+	font-size: 200%;
+    font-weight: 700;
+	color: #e2dbdb;
+ }
+
+.box-3 li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: darkgrey;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+    
+    a:hover {
+        color: pink;
+        text-decoration: none;
+    
+  }
+  
+.categories {
+      border: 5px #ff94df solid;
+      padding: 10px;
+}
+
+.categories h3 {
+    font-family:'sans-serif', 'serif';
+    color: darkgrey;
+	font-size: 2rem;
+    text-align: center;
+} 
+
+.categories li{
+        font: darkgrey;
+        padding-bottom: 8px;
+        border-bottom: 1px #333;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+    list-style-type: none;
+}
+
+/* Media Queries */
+
+body { background-color: red; }
+
+@media (min-width: 1024px) {
+        body {
+                background-color: blue
+        }
+}
+@media (min-width: 768px) {                                                          
+    h1 {                                                                             
+        font-size: 60px;                                                             
+}                              
+@media (min-width: 320px) {                                                          
+        h1 {                                                                             
+            font-size: 10px;                                                             
+        }                                                                                
+}
+h1 {                                                                                 
+    font-size: 100px;                                                                
+}             
