@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <div class="box-3">
+            <nav>
+                <ul>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href="about.html">About Quanita</a></li>
+                    <li><a href='blog.html'>Read my blog</a></li>
+                    <li><a href='contact.html'>Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="box-1">
+                <h1 class="titel">Signup</h1>
+                <hr />
+                <p> Receive our newsletter</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="form">
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact">
+
+            <p>
+                <label>Name<br>
+                    <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Email <br>
+                    <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Phone<br>
+                    <input type="text" name="phone" /></label>
+            </p>
+            <p>
+                <label>Age<br>
+                    <input type="text" name="age" /></label>
+            </p>
+            <p>
+                <label>Date of Birth<br>
+                    <input type="date" name="date" /></label>
+            </p>
+            <p>
+                <label>Gender<br>
+                    <input type="radio" name="gender" value="Male">Male<br>
+                    <input type="radio" name="gender" value="Female">Female<br>
+                    <input type="radio" name="gender" value="Other">Other<br>
+                </label>
+            </p>
+            <p>
+                <label>Favorite cuisine<br>
+                    <input type="checkbox" name="french">French<br>
+                    <input type="checkbox" name="italian">Italian<br>
+                    <input type="checkbox" name="spanish">Spanish<br>
+                    <input type="checkbox" name="arabic">Arabic<br>
+
+                </label>
+            </p>
+            <p>
+                <label>Choos your favorite color<br>
+                    <form action="dataprocessing.php" method="get" target="_blank">
+                        <input type="color" name="colorfield" value="#ff94df" />
+                    </form>
+                </label>
+            </p>
+            <p>
+                <label>What's your story<br>
+                    <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <label>Upload a file<br>
+                    <input type="file" id="real-file" />
+                </label>
+            </p>
+            <p>
+                <label>What is your website<br>
+                    <input type="url" name="url" id="url">
+                </label>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </p>
+        </form>
+    </div>
+
+    <footer>
+        <p>Website made with Love</p>
+    </footer>
+
+</body>
+
+</html>

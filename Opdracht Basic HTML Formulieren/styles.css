@@ -191,8 +191,6 @@ li a {
     font-style:oblique;
 }
 
-    
-body { background-color: red; }
 
 /* Media Queries */
 
@@ -214,4 +212,5 @@ body { background-color: red; }
 h1 {                                                                                 
     font-size: 100px;                                                                
 }             
+
 
