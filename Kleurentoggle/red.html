@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kleuren Toggle</title>
+    <link rel="stylesheet" href="resetstyle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: red;">
+
+    <nav class="nav-main">
+        <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+
+        <aside class="nav-sidebar" onclick="handleClick(this), toggleColor(this)">
+            <ul>
+                <li><span id="home">Home</span></li>
+                <li><a href="red.html" id="red">Red</a></li>
+                <li><a href="orange.html" id="orange">Orange</a></li>
+                <li><a href="purple.html" id="purple">Purple</a></li>
+                <li><a href="green.html" id="green">Green</a></li>
+            </ul>
+        </aside>
+    </nav>
+</body>
+<script src="script.js"></script>
+
+</html>
